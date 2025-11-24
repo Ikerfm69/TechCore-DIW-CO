@@ -637,6 +637,7 @@ footer {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    max-width: 350px;
 }
 
 
@@ -650,10 +651,13 @@ footer {
 
 .producto img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
+    height: 220px;
+    object-fit: contain;
     border-bottom: 1px solid #eee;
+    background-color: #f8f9fa;
+    padding: 10px;
 }
+
 .producto h4 {
     padding: 15px 15px 10px;
     margin: 0;
@@ -807,4 +811,57 @@ footer {
     color: #0056b3;
     font-weight: bold;
     font-size: 1.2rem;
+}
+.valoraciones {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 40px 20px;
+}
+
+.valoraciones h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.valoraciones-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.valoracion {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+.usuario-valoracion img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.contenido-valoracion p {
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.estrellas {
+    color: #ffd700;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.nombre-usuario {
+    font-weight: bold;
+    color: #333;
+    font-size: 0.9rem;
 }
