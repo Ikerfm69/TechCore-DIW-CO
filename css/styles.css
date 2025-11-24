@@ -94,18 +94,18 @@ main {
 
 footer {
     border-top: 1px solid #ccc;
-    padding: 40px 30px 20px;
+    padding: 20px 30px 10px;
 }
 
 .footer-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .footer-logo img {
-    height: 200px;
+    height: 100px;
 }
 
 .redes-sociales {
@@ -348,8 +348,183 @@ footer {
 }
 .boton-privacidad:hover {
     background-color: #000000;
-<<<<<<< Updated upstream
 }
-=======
+
+.titulo-usuario{
+      text-align: center;
+    border: none;
+    border-radius: 0;
+    max-width: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    background-color: transparent;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
 }
->>>>>>> Stashed changes
+.usuario-caja{
+    border: solid 1px #333;
+    padding: 2rem 2rem 0 2rem;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+.usuario-caja form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+.label-usuario{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: 500;
+}
+.input-usuario{
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #333;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.boton-registro{
+   padding: 10px 20px;
+   color: #ccc;
+   background-color: #000;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   margin: 20px auto;
+   display: block;
+   transition: background-color 0.3s;
+}
+
+.boton-registro:hover {
+    background-color: #0056b3;
+}
+.registro-usuario{
+    background-color: #999;
+    margin: 0 -2rem;
+    padding: 1.5rem 2rem;
+    border-top: 1px solid #333;
+    text-align: left;
+}
+.registro-usuario p{
+    margin: 0 0 0.8rem 0;
+    color: #333;
+}
+.boton-usuario {
+    padding: 0.5rem 1.2rem;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-usuario:hover {
+    background-color: #0056b3;
+}
+.contenedor-carrito {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.lista-productos {
+    flex: 1;
+    border: 1px solid #333;
+    padding: 20px;
+    background-color: #fff;
+    }
+
+.producto-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}    
+.producto-img img{
+    width: 120px;
+    height: auto;
+    
+}
+.producto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.producto-nombre {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.producto-precio {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.producto-cantidad{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+.producto-cantidad input{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #333;
+
+}
+
+.resumen-carrito {
+    flex: 1;
+    background-color: #bbb3b3;
+    padding: 20px;
+    border-radius: 4px;
+}
+.resumen-carrito h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+.resumen-carrito hr {
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 15px 0;
+}
+
+.fila-resumen{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.fila-resumen.total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.boton-tramitar{
+    width: 100%;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+ }
+.boton-tramitar:hover{
+    background-color:#004494 ;
+
+}
+.titulo-carrito{
+    margin-bottom: 20px;
+}
