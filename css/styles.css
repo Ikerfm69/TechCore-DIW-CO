@@ -13,11 +13,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #212121;
 }
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
 }
 
 ul {
@@ -44,6 +45,7 @@ header {
     padding: 15px 30px;
     border-bottom: 1px solid #ccc;
     gap: 20px;
+    background-color: #000000;
 }
 
 .logo a {
@@ -55,7 +57,7 @@ header {
 .logo span {
     font-size: 2rem;
     font-weight: 800;
-    color: #000;
+    color: #FFFFFF;
 }
 
 .logo img {
@@ -68,7 +70,7 @@ header {
 }
 
 .main-nav a {
-    color: #0056b3;
+    color: #18CF00;
     font-weight: 500;
 }
 
@@ -87,6 +89,8 @@ header {
     outline: none;
     width: 100%;
     margin-left: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
 }
 
 .buscador button {
@@ -111,7 +115,7 @@ header {
 footer {
     border-top: 1px solid #ccc;
     padding: 30px 40px;
-    background-color: #f8f8f8;
+    background-color: #000000;
 }
 
 .footer-container {
@@ -140,7 +144,7 @@ footer {
 }
 
 .footer-nav a {
-    color: #333;                
+    color: #FFFFFF;                
     text-decoration: none;       
     font-size: 0.9rem;           
     font-weight:bold;
@@ -148,7 +152,7 @@ footer {
 
 .direccion {
     font-size: 0.8rem;
-    color: #333;
+    color: #FFFFFF;
     margin: 20px 0 0 0;  
     padding-top: 20px;  
     border-top: 1px solid #ccc; 
@@ -184,7 +188,7 @@ footer {
 }
 
 .producto {
-    background-color: #fff;
+    background-color: #212121;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -218,7 +222,7 @@ footer {
     color: #333;
     line-height: 1.4;
     flex-grow: 1;
-    background-color: #fff;
+    background-color: #212121;
 }
 
 .producto .precio {
@@ -227,7 +231,7 @@ footer {
     font-size: 1.3rem;
     font-weight: bold;
     color: #0056b3;
-    background-color: #fff;
+    background-color: #212121;
 }
 
 .valoraciones {
