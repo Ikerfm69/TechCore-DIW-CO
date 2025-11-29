@@ -188,7 +188,7 @@ footer {
 }
 
 .producto {
-    background-color: #212121;
+    background-color: #404040;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -219,10 +219,10 @@ footer {
     padding: 15px 15px 10px;
     margin: 0;
     font-size: 1.1rem;
-    color: #333;
+    color: #ffffff;
     line-height: 1.4;
     flex-grow: 1;
-    background-color: #212121;
+    background-color: #404040;
 }
 
 .producto .precio {
@@ -230,8 +230,8 @@ footer {
     margin: 0;
     font-size: 1.3rem;
     font-weight: bold;
-    color: #0056b3;
-    background-color: #212121;
+    color: #18CF00;
+    background-color: #404040;
 }
 
 .valoraciones {
@@ -241,7 +241,7 @@ footer {
 }
 
 .valoraciones h2 {
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 30px;
     font-size: 2rem;
     text-align: center;
@@ -297,6 +297,9 @@ footer {
     color: red;
 }
 
+.principal h1{
+    color: #FFFFFF;
+}
 
 
 /* ==================================== */
@@ -313,9 +316,9 @@ footer {
 
 .sidebar{
     flex: 0 0 250px;
-    background-color: #f8f9fa;
+    background-color: #000000;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #18CF00;
     border-radius: 8px;
     height: fit-content;
 }
@@ -326,6 +329,7 @@ footer {
     font-size: 1.3rem;
     border-bottom: 2px solid #95989b;
     padding-bottom: 10px;
+    color: #FFFFFF;
 }
 
 
@@ -349,7 +353,7 @@ footer {
 
 .filtro-section h3 {
     margin-bottom: 15px;
-    color: #333;
+    color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -357,14 +361,14 @@ footer {
 .filtro-section label{
     display: block;
     margin-bottom: 10px;
-    color: #555;
+    color: #C2C2C2;
     cursor: pointer;
     padding: 5px 0;
 }
 
 .precio-valores{
     text-align: center;
-    color: #666;
+    color: #C2C2C2;
 }
 
 .catalogo{
@@ -378,11 +382,11 @@ footer {
     align-items: center;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #0056b3;
+    border-bottom: 2px solid #18CF00;
 }
 
 .catalogo-header h1 {
-    color: #333;
+    color: #FFFFFF;
     font-size: 2rem;
     margin: 0;
 }
@@ -395,7 +399,7 @@ footer {
 
 .ordenar label{
     font-weight: 500;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .ordenar select {
@@ -442,14 +446,14 @@ footer {
 
 
 .detalle-info h1 {
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 15px;
     font-size: 2rem;
 }
 
 
 .detalle-info .precio {
-    color: #0056b3;
+    color: #18CF00;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -457,14 +461,14 @@ footer {
 
 
 .detalle-info p {
-    color: #666;
+    color: #C2C2C2;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
 
 .detalle-info h3 {
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -477,11 +481,17 @@ footer {
 }
 
 
-.specs-table th,
+.specs-table th{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #000000;
+}
 .specs-table td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
+    color: #FFFFFF;
 }
 
 
@@ -492,7 +502,7 @@ footer {
 
 
 .add-cart {
-    background-color: #0056b3;
+    background-color: #18CF00;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -505,12 +515,12 @@ footer {
 
 
 .add-cart:hover {
-    background-color: #004494;
+    background-color: #17A600;
 }
 
 
 .detalle-back {
-    color: #0056b3;
+    color: #18CF00;
     text-decoration: underline;
 }
 
@@ -523,7 +533,7 @@ footer {
 
 
 .similares h3 {
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
@@ -552,12 +562,12 @@ footer {
 .simil-name {
     padding: 15px 15px 10px;
     font-weight: 500;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .similar-item .precio {
     padding: 0 15px 15px;
-    color: #0056b3;
+    color: #18CF00;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -678,6 +688,9 @@ footer {
     background-color: rgb(199, 97, 29);
 }
 
+.main .titulo-carrito{
+    color: #FFFFFF;
+}
 
 
 /* ==================================== */
@@ -690,7 +703,7 @@ footer {
     border-radius: 0;
     margin: 0 0 20px 0;
     padding: 0;
-    color: #333;
+    color: #FFFFFF;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -728,14 +741,18 @@ footer {
 
 .boton-registro{
     padding: 10px 20px;
-    color: #ccc;
-    background-color: #0056b3;
+    color: #FFFFFF;
+    background-color: #18CF00;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     margin: 20px auto;
     display: block;
     font-size: 15px;
+}
+
+.boton-registro:hover{
+    background-color: #17A600;
 }
 
 .boton-usuario {
@@ -746,6 +763,11 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
+}
+
+.boton-usuario:hover {
+    background-color: #333;
+    border-color: #555;
 }
 
 .registro-usuario{
@@ -768,6 +790,7 @@ footer {
 
 .titulo-contacto{
     text-align: center;
+    color: #FFFFFF;
 }
 
 .mapa-contacto{
@@ -794,8 +817,13 @@ footer {
 .columna-contacto{
     flex: 1;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #18CF00;
     border-radius: 8px;
+    color: #FFFFFF
+}
+
+.columna-contacto P{
+    color: #C2C2C2
 }
 
 .seccion-contacto {
@@ -815,20 +843,20 @@ footer {
 .preguntas-contacto h4 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .preguntas-contacto p{
     margin-bottom: 15px;
     line-height: 1.6;
-    color: #666;
+    color: #C2C2C2;
 }
 
 .formulario-contacto{
     flex: 1;
     margin: 0;
     padding: 30px;
-    border: 1px solid #ddd;
+    border: 1px solid #18CF00;
     border-radius: 10px;
 }
 
@@ -840,7 +868,7 @@ footer {
 
 .label-contacto{
     font-weight: 600;
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 5px;
 }
 
@@ -853,7 +881,7 @@ footer {
 }
 
 .formulario-contacto button {
-    background-color: #0056b3;
+    background-color: #18CF00;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -865,7 +893,7 @@ footer {
 }
 
 .formulario-contacto button:hover {
-    background-color: #004494;
+    background-color: #17A600;
 }
 
 
@@ -889,14 +917,14 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #0056b3;
-    color: #ccc;
+    background-color: #18CF00;
+    color: #FFFFFF;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .contenido-quienes-somos h2 {
-    color: #0056b3;
+    color: #18CF00;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.5rem;
@@ -904,7 +932,7 @@ footer {
 
 .contenido-quienes-somos p {
     margin-bottom: 15px;
-    color: #333;
+    color: #C2C2C2;
 }
 
 .lista-valores {
@@ -915,18 +943,22 @@ footer {
 .lista-valores li {
     list-style: disc;
     margin-bottom: 8px;
-    color: #000;
+    color: #C2C2C2;
 }
 
 .boton-privacidad{
     padding: 10px 20px;
-    background-color: #0056b3;
+    background-color: #18CF00;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     margin: 20px auto;
     display: block;
     font-size: 17px;
+}
+
+.boton-privacidad:hover{
+    background-color: #17A600;
 }
 
 .boton-privacidad a{
@@ -947,19 +979,19 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #0056b3;
-    color: #ccc;
+    background-color: #18CF00;
+    color: #FFFFFF;
 }
 
 .contenido-privacidad{
     margin: 20px 0 20px 300px;
     max-width: 800px;
     line-height: 1.5;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .contenido-privacidad h2{
-    color: #0056b3;
+    color: #18CF00;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.7rem;
@@ -973,7 +1005,7 @@ footer {
 .contenido-privacidad li{
     list-style: disc;
     margin-bottom: 8px;
-    color: #000;
+    color:#C2C2C2;
 }
 
 .contenido-privacidad p {
