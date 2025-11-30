@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #212121;
+    background-color: #779CBF;
 }
 
 a {
@@ -43,9 +43,9 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding: 15px 30px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #FFFFFF;
     gap: 20px;
-    background-color: #000000;
+    background-color: #2C3E50;
 }
 
 .logo a {
@@ -61,7 +61,7 @@ header {
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
 }
 
 .main-nav ul {
@@ -70,14 +70,18 @@ header {
 }
 
 .main-nav a {
-    color: #18CF00;
+    color: #FFFFFF;
     font-weight: 500;
+}
+
+.main-nav span {
+    color: #FFFFFF;
 }
 
 .buscador {
     display: flex;
     align-items: center;
-    border: 1px solid #999;
+    border: 1px solid #FFFFFF;
     border-radius: 20px;
     padding: 5px 15px;
     flex-grow: 0;
@@ -115,7 +119,7 @@ header {
 footer {
     border-top: 1px solid #ccc;
     padding: 30px 40px;
-    background-color: #000000;
+    background-color: #2C3E50;
 }
 
 .footer-container {
@@ -126,7 +130,7 @@ footer {
 }
 
 .footer-logo img {
-    height: 100px; 
+    height: 150px; 
 }
 
 .footer-secciones {
@@ -188,7 +192,7 @@ footer {
 }
 
 .producto {
-    background-color: #404040;
+    background-color: #5AA4E8;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -222,7 +226,7 @@ footer {
     color: #ffffff;
     line-height: 1.4;
     flex-grow: 1;
-    background-color: #404040;
+    background-color: #5AA4E8;
 }
 
 .producto .precio {
@@ -230,8 +234,8 @@ footer {
     margin: 0;
     font-size: 1.3rem;
     font-weight: bold;
-    color: #18CF00;
-    background-color: #404040;
+    color: #AF00FF;
+    background-color: #5AA4E8;
 }
 
 .valoraciones {
@@ -316,18 +320,17 @@ footer {
 
 .sidebar{
     flex: 0 0 250px;
-    background-color: #000000;
+    background-color: #5AA4E8;
     padding: 20px;
-    border: 1px solid #18CF00;
+    border: 1px solid #FFFFFF;
     border-radius: 8px;
     height: fit-content;
 }
 
 .sidebar h2{
     margin-bottom: 20px;
-    color: #333;
     font-size: 1.3rem;
-    border-bottom: 2px solid #95989b;
+    border-bottom: 2px solid #FFFFFF;
     padding-bottom: 10px;
     color: #FFFFFF;
 }
@@ -361,14 +364,14 @@ footer {
 .filtro-section label{
     display: block;
     margin-bottom: 10px;
-    color: #C2C2C2;
+    color: #FFFFFF;
     cursor: pointer;
     padding: 5px 0;
 }
 
 .precio-valores{
     text-align: center;
-    color: #C2C2C2;
+    color: #FFFFFF;
 }
 
 .catalogo{
@@ -382,7 +385,7 @@ footer {
     align-items: center;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #18CF00;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .catalogo-header h1 {
@@ -436,6 +439,7 @@ footer {
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
+    background-color: #FFFFFF;
 }
 
 
@@ -453,7 +457,7 @@ footer {
 
 
 .detalle-info .precio {
-    color: #18CF00;
+    color: #AF00FF;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
@@ -461,7 +465,7 @@ footer {
 
 
 .detalle-info p {
-    color: #C2C2C2;
+    color: #e2e2e2;
     line-height: 1.6;
     margin-bottom: 30px;
 }
@@ -502,7 +506,7 @@ footer {
 
 
 .add-cart {
-    background-color: #18CF00;
+    background-color: #AF00FF;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -515,12 +519,12 @@ footer {
 
 
 .add-cart:hover {
-    background-color: #17A600;
+    background-color: #7800af;
 }
 
 
 .detalle-back {
-    color: #18CF00;
+    color: #AF00FF;
     text-decoration: underline;
 }
 
@@ -551,6 +555,7 @@ footer {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    background-color: #FFFFFF;
 }
 
 .similar-item img {
@@ -563,13 +568,15 @@ footer {
     padding: 15px 15px 10px;
     font-weight: 500;
     color: #FFFFFF;
+    background-color: #5AA4E8;
 }
 
 .similar-item .precio {
     padding: 0 15px 15px;
-    color: #18CF00;
+    color: #AF00FF;
     font-weight: bold;
     font-size: 1.2rem;
+    background-color: #5AA4E8;
 }
 
 
@@ -742,7 +749,7 @@ footer {
 .boton-registro{
     padding: 10px 20px;
     color: #FFFFFF;
-    background-color: #18CF00;
+    background-color: #AF00FF;
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -752,7 +759,7 @@ footer {
 }
 
 .boton-registro:hover{
-    background-color: #17A600;
+    background-color: #7800af;
 }
 
 .boton-usuario {
@@ -817,13 +824,13 @@ footer {
 .columna-contacto{
     flex: 1;
     padding: 20px;
-    border: 1px solid #18CF00;
+    border: 1px solid #AF00FF;
     border-radius: 8px;
     color: #FFFFFF
 }
 
 .columna-contacto P{
-    color: #C2C2C2
+    color: #e2e2e2
 }
 
 .seccion-contacto {
@@ -849,14 +856,14 @@ footer {
 .preguntas-contacto p{
     margin-bottom: 15px;
     line-height: 1.6;
-    color: #C2C2C2;
+    color: #e2e2e2;
 }
 
 .formulario-contacto{
     flex: 1;
     margin: 0;
     padding: 30px;
-    border: 1px solid #18CF00;
+    border: 1px solid #AF00FF;
     border-radius: 10px;
 }
 
@@ -881,7 +888,7 @@ footer {
 }
 
 .formulario-contacto button {
-    background-color: #18CF00;
+    background-color: #AF00FF;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -893,7 +900,7 @@ footer {
 }
 
 .formulario-contacto button:hover {
-    background-color: #17A600;
+    background-color: #7800af;
 }
 
 
@@ -917,14 +924,14 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #18CF00;
+    background-color: #AF00FF;
     color: #FFFFFF;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .contenido-quienes-somos h2 {
-    color: #18CF00;
+    color: #AF00FF;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.5rem;
@@ -932,7 +939,7 @@ footer {
 
 .contenido-quienes-somos p {
     margin-bottom: 15px;
-    color: #C2C2C2;
+    color: #e2e2e2;
 }
 
 .lista-valores {
@@ -943,12 +950,12 @@ footer {
 .lista-valores li {
     list-style: disc;
     margin-bottom: 8px;
-    color: #C2C2C2;
+    color: #e2e2e2;
 }
 
 .boton-privacidad{
     padding: 10px 20px;
-    background-color: #18CF00;
+    background-color: #AF00FF;
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -958,7 +965,7 @@ footer {
 }
 
 .boton-privacidad:hover{
-    background-color: #17A600;
+    background-color: #7800af;
 }
 
 .boton-privacidad a{
