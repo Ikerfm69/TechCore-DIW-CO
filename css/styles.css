@@ -986,7 +986,7 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #18CF00;
+    background-color: #AF00FF;
     color: #FFFFFF;
 }
 
@@ -998,7 +998,7 @@ footer {
 }
 
 .contenido-privacidad h2{
-    color: #18CF00;
+    color: #AF00FF;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.7rem;
@@ -1012,7 +1012,7 @@ footer {
 .contenido-privacidad li{
     list-style: disc;
     margin-bottom: 8px;
-    color:#C2C2C2;
+    color:#e2e2e2;
 }
 
 .contenido-privacidad p {
