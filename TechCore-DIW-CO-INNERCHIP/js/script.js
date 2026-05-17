@@ -2,6 +2,26 @@ $(document).ready(function() {
     //Menu hamburguesa para movil
     // Configuración inicial: Ocultar la lista al cargar
     //$(".main-nav ul").hide();
+    function toggleMenu() {
+        if ($(window).width() >= 992) {
+            $(".main-nav ul").show();
+        } else {
+            $(".main-nav ul").hide();
+        }
+    }
+
+    // estado inicial
+    toggleMenu();
+
+    // burger
+    $("#burger-menu").click(function () {
+        $(".main-nav ul").slideToggle(300);
+    });
+
+    // resize fix
+    $(window).resize(function () {
+        toggleMenu();
+    });
 
     // Resaltado con borde azul al pasar por el producto
     $(".producto").hover(

@@ -42,6 +42,10 @@ main {
     background-color: #F5F2ED;
 }
 
+.bg-cream{
+    background-color: #F5F2ED;
+}
+
 
 
 /* ==================================== */
@@ -533,8 +537,7 @@ footer {
 
 
 .add-cart:hover {
-    background-color: #0c8a49;
-
+    background-color: #004494;
 }
 
 
