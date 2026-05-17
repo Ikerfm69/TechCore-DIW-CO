@@ -36,21 +36,18 @@
                     id="menuPrincipal">
                     <ul
                         class="navbar-nav me-auto mb-2 mb-lg-0 align-items-start align-items-lg-center">
-                        <li class="nav-link"
-                            href="index.html"
-                            style="color: #18CF00; font-weight: 500"><a
+                        <li class="nav-item"><a
+                                class="nav-link text-light fw-semibold"
                                 href="index.html">Inicio</a></li>
                         <span class="separador d-none d-lg-inline mx-2"
                             style="color: #ccc">|</span>
-                        <li class="nav-link"
-                            href="index.html"
-                            style="color: #18CF00; font-weight: 500"><a
-                                href="catalogo.html">Catalogo</a></li>
+                        <li class="nav-item"><a
+                                class="nav-link text-light fw-semibold"
+                                href="catalogo.html">Catálogo</a></li>
                         <span class="separador d-none d-lg-inline mx-2"
                             style="color: #ccc">|</span>
-                        <li class="nav-link"
-                            href="index.html"
-                            style="color: #18CF00; font-weight: 500"><a
+                        <li class="nav-item"><a
+                                class="nav-link text-light fw-semibold"
                                 href="contacto.html">Contacto</a></li>
                     </ul>
 
@@ -62,13 +59,14 @@
                             for="buscador-principal">Buscar</label>
                         <input
                             id="buscador-principal"
-                            class="form-control me-2"
+                            class="form-control me-2 bg-light text-dark"
                             type="search"
                             name="buscar"
-                            placeholder="buscar"
-                            style="border-radius: 20px; border: 1px solid #222222" />
-                        <button class="btn btn-outline-light"
-                            type="submit">🔍</button>
+                            placeholder="Buscar"
+                            aria-label="Buscar"
+                            style="border-radius: 20px; border: 1px solid #ccc" />
+                        <button class="btn btn-light" type="submit"
+                            aria-label="Buscar">🔍</button>
                     </form>
 
                     <div class="usuario d-flex flex-column flex-lg-row gap-3">
