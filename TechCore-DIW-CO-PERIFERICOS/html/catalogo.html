@@ -19,57 +19,61 @@
     </head>
     <body class="bg-grey">
         <header
-            class="navbar navbar-expand-lg navbar-light bg-black border-bottom py-3">
+            class="navbar navbar-expand-lg navbar-light bg-grey border-bottom-blue py-3">
             <div class="container">
-                <button id="burger-menu"
+                <button
+                    id="burger-menu"
                     class="navbar-toggler me-2 border-light"
-                    type="button" data-bs-toggle="collapse"
+                    type="button"
+                    data-bs-toggle="collapse"
                     data-bs-target="#menuPrincipal"
                     aria-label="Abrir menu de navegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <a class="navbar-brand d-flex align-items-center gap-2">
-                    <img src="../imagenes/logoSinTexto.png" alt="Inicio"
-                        height="36">
+                <a class="navbar-brand d-flex align-items-center gap-2"
+                    href="index.html"
+                    aria-label="WiredZone - Inicio">
+                    <img src="../imagenes/LogoSinTexto.png"
+                        alt="Logo de WiredZone" height="36">
                     <span class="fw-bold text-light"
-                        style="font-size: 2rem;">WiredZone</span>
+                        style="font-size: 2rem">WiredZone</span>
                 </a>
 
                 <div class="collapse navbar-collapse main-nav"
                     id="menuPrincipal">
                     <ul
                         class="navbar-nav me-auto mb-2 mb-lg-0 align-items-start align-items-lg-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html"
-                                style="color: #18CF00; font-weight: 500;">Inicio</a>
-                        </li>
+                        <li class="nav-item"><a
+                                class="nav-link fw-semibold"
+                                style="color: #18CF00; font-weight: 500;">Inicio</a></li>
                         <span class="separador d-none d-lg-inline mx-2"
-                            style="color: #ccc;">|</span>
-                        <li class="nav-item">
-                            <a class="nav-link" href="catalogo.html"
-                                style="color: #18CF00; font-weight: 500;">Catalogo</a>
-                        </li>
+                            style="color: #ccc">|</span>
+                        <li class="nav-item"><a
+                                class="nav-link fw-semibold"
+                                style="color: #18CF00; font-weight: 500;"
+                                href="catalogo.html">Catálogo</a></li>
                         <span class="separador d-none d-lg-inline mx-2"
-                            style="color: #ccc;">|</span>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html"
-                                style="color: #18CF00; font-weight: 500;">Contacto</a>
-                        </li>
+                            style="color: #ccc">|</span>
+                        <li class="nav-item"><a
+                                class="nav-link fw-semibold"
+                                style="color: #18CF00; font-weight: 500;"
+                                href="contacto.html">Contacto</a></li>
                     </ul>
 
-                    <form action="/buscar" method="get"
-                        class="d-flex my-3 my-lg-0 me-lg-3" role="search">
-                        <label for="buscar-principal"
-                            class="visually-hidden text-light">Buscar en el
-                            catalogo</label>
-                        <input id="buscar-principal" class="form-control me-2"
+                    <form action="/buscar"
+                        method="get"
+                        class="d-flex my-3 my-lg-0 me-lg-3"
+                        role="search">
+                        <input
+                            id="buscador-principal"
+                            class="form-control me-2 bg-light text-dark"
                             type="search"
-                            name="buscar" placeholder="buscar"
-                            aria-label="Buscar en el catalogo"
-                            style="border-radius: 20px; border: 1px solid #999;">
-                        <button class="btn btn-outline-light"
-                            type="submit">🔍</button>
+                            name="buscar"
+                            placeholder="Buscar"
+                            aria-label="Buscar"
+                            style="border-radius: 20px; border: 1px solid #ccc" />
+                        <button class="btn btn-light" type="submit"
+                            aria-label="Buscar">🔍</button>
                     </form>
 
                     <div class="usuario d-flex flex-column flex-lg-row gap-3">
@@ -77,8 +81,8 @@
                             class="text-decoration-none text-light">👤 Mi
                             cuenta</a>
                         <a href="carrito.html"
-                            class="text-decoration-none text-light">🛒 Mi
-                            cesta</a>
+                            class="text-decoration-none text-light">🛒
+                            Mi cesta</a>
                     </div>
                 </div>
             </div>
@@ -587,7 +591,7 @@
                                                 SSD 1TB</h3>
                                             <p class="precio fw-bold">
                                                 <span
-                                                    class="oferta text-warning fw-bold">10€</span>
+                                                    class="oferta text-warning fw-bold">100€</span>
                                                 <span
                                                     class="preciomenos text-blue small"><s>129€</s></span>
                                             </p>
